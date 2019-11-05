@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background:#D5E9EB; 
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:azure;
+	font-size:25px;
+	text-align: center;
+	font-style: oblique;
+}
+
+h1 {
+ 
+}
+ 
+a {
+    text-decoration: none;
+    background-color:#83C6B8;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover {
+    background-color:beige;
+    color: #000;
+    opacity: 0.5;
+    transition: all 2s;
+    margin-left: 30px;
+}
+div {
+    background-image:
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+}
+div:hover {
+    transform: rotate(360deg);
+    margin-left: 30px;
+    transition: all 2s;
+}
