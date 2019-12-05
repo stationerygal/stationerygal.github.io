@@ -3,20 +3,17 @@
 body {
 	background:#D5E9EB; 
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	color:azure;
+	color:#36413E;
 	font-size:25px;
 	text-align: center;
 	font-style: oblique;
 }
 
-h1 {
- 
-}
- 
 a {
-    text-decoration: none;
+    text-decoration:none;
     background-color:#83C6B8;
-    color: #fff;
+    color: #36413E;
+    margin-right: inherit;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -27,14 +24,134 @@ a:hover {
     transition: all 2s;
     margin-left: 30px;
 }
-div {
-    background-image:
-    background-size: contain;
-    width: 500px;
-    height: 300px;
+.subhead {
+    width: 450px;
+    height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	text-decoration: underline;
+	text-align: center;
+	
 }
-div:hover {
-    transform: rotate(360deg);
-    margin-left: 30px;
-    transition: all 2s;
+
+.container {
+	background-image: url("home.jpg");
+	width: 100%;
+	height: 600px;
 }
+
+.text-block{
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size:30px;
+  color: black;
+	padding-top:20px;
+	width: 400px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+}
+.webtitle {
+	  background-color: #DCF7F7;
+
+}
+
+.subtitle {
+	width: 1000px;
+	height: 150px;
+	background-color: #DCF7F7;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	
+}
+
+section {
+	display: block;
+	width: 650px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product {
+	display: block;
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+.ink {
+	width:300px;
+	text-align:center;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+h2 {
+	text-align: left;
+	background-color: #92C4B8;
+	padding-left: 30px;
+	font-style: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+p {
+	text-align: left;
+	font-style: normal;
+}
+
+section {
+	display: block;
+	width: 650px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+.product2 {
+	display: block;
+	float: right;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.tape {
+	text-align:center;
+	background-color: #92C4B8;
+	padding-left: 10px;
+	font-style: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+section {
+	display: block;
+	width: 650px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product3 {
+    display: block;
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.mono {
+	text-align:center;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
